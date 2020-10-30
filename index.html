@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link id="lnkStyle" href="assets/css/style.css"
+          rel="stylesheet" type="text/css" media="screen" />
+    <title>Course de chiens</title>
+</head>
+<body>
+
+    <!-- Nom course -->
+    <div>
+        <label for="txtNomCourse">Nom de la course:</label>
+        <input type="text" id="txtNomCourse"/>
+    </div>
+
+    <!-- Desc course -->
+    <div>
+        <label for="txtDescCourse">Description de la course:</label>
+        <input type="text" id="txtDescCourse">
+    </div>
+
+    <!-- Pays -->
+    <div id="divPaysSelect">
+        <label for="selectPays">Pays:</label>
+        <select name="selectPays" id="selectPays"></select>
+    </div>
+
+    <!-- Durée de la course (en secondes) -->
+    <div>
+        <label for="dureeCourse">Durée de la course:</label>
+        <input type="text" id="dureeCourse" placeholder="En secondes..."/>
+    </div>
+
+
+    <input type="button" value="Commencer les inscriptions" id="btnComIns"/>
+
+    <div id="divListeAnimaux"></div>
+
+    <div id="divListeInscrits"></div>
+
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript" src="assets/js/timer.jquery.min.js"></script>
+</body>
+</html>
